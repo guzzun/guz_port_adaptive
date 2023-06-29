@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.c	om/css?family=Montserrat:regular,600,700&display=swap" rel="stylesheet" />
+		<link rel="icon" href="../img/icons/cv.png">
+		<link rel="stylesheet" href="../css/style.css">
+		<title> Contact Us </title>
+	</head>
+	<body>
+
+		<!-- nav -->
+		<nav class="nav">
+			<div class="container">
+				<div class="nav-row">
+					<a href="../index.html" class="nav-row__logo"> <strong> Guzun </strong> portfolio </a>
+					
+					<button class="dark-mode-btn">
+						<img src="../img/icons/sun.svg" alt="light-mode" class="dark-mode-btn__icon">
+						<img src="../img/icons/moon.svg" alt="dark-mode" class="dark-mode-btn__icon">
+					</button>
+					
+					<ul class="nav-list">
+						<li class="nav-list__item"> <a href="../index.html" class="nav-list__link"> Projects </a> </li>
+						<li class="nav-list__item"> <a href="skills.html" class="nav-list__link"> Skills </a> </li>
+						<li class="nav-list__item"> <a href="contacts.html" class="nav-list__link nav-list__link--active"> Contacts </a> </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- form -->
+		<main class="section">
+			<div class="container">
+				<section class="contacts">
+					<div class="contacts__content">
+						<h1 class="contacts__title">Let’s work <span>together</span></h1>
+						<div class="contacts__text">
+							<p>
+								If you would like to work with us or just want to get in touch, we’d love to hear from you!							</p>
+						</div>
+
+						<form name="submit-to-google-sheet" class="contacts__form form">
+							<div class="form__line">
+								<input required id="i-1" type="text" class="form__input" name="Name" placeholder="Name *">
+							</div>
+							<div class="form__line">
+								<input required id="i-2" type="email" class="form__input" name="Email" placeholder="Email *" title="characters@characters.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+							</div>
+							<div class="form__line">
+								<input required id="i-3" type="tel" class="form__input" name="Phone" placeholder="Phone number *" title="!enter only numbers" pattern="[0-9]+">
+							</div>
+							<div class="form__line">
+								<input id="i-4" type="text" class="form__input" name="Message" placeholder="How did you find us?">
+							</div>
+							<div class="form__line">
+								<button type="submit" class="form__button">send</button>
+							</div>
+
+							<span id="form__msg"></span>
+						</form>
+
+						<div class="contacts__info info-contacts">
+							<div class="info-contacts__item">
+								<div class="info-contacts__icon">
+									<i class="fa-solid fa-phone"></i>						
+								</div>
+								<div class="info-contacts__body">
+									<div class="info-contacts__title">PHONE</div>
+									<a href="tel: 069348461" class="info-contacts__value"> 069348461 </a>
+								</div>
+							</div>
+
+							<div class="info-contacts__item">
+								<div class="info-contacts__icon">
+									<i class="fa-solid fa-location-dot"></i>								</div>
+								<div class="info-contacts__body">
+									<div class="info-contacts__title">Location</div>
+									<a href="tel: 0 305 55 444" class="info-contacts__value"> Moldova, Chisinau </a>
+								</div>
+							</div>
+
+							<div class="info-contacts__item">
+								<div class="info-contacts__icon">
+									<i class="fa-solid fa-envelope"></i>								
+								</div>
+								<div class="info-contacts__body">
+									<div class="info-contacts__title">EMAIL</div>
+									<a href="mailto: guzzun@gmail.com" class="info-contacts__value"> guzzun@gmail.com </a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="contacts__map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2788797.90080842!2d25.7497815!3d46.9531338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3628b769a1%3A0x258119acdf53accb!2sMoldova!5e0!3m2!1sro!2s!4v1687993331694!5m2!1sro!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<ul class="social">
+						<li class="social__item"> <a href="#!"> <img src="../img/icons/gitHub.svg" alt="Link"> </a> </li>
+						<li class="social__item"> <a href="#!"> <img src="../img/icons/linkedIn.svg" alt="Link"> </a> </li>
+						<li class="social__item"> <a href="#!"> <img src="../img/icons/instagram.svg" alt="Link"> </a> </li>
+						<li class="social__item"> <a href="#!"> <img src="../img/icons/twitter.svg" alt="Link"> </a> </li>
+					</ul>
+					<div class="copyright">
+						<p> © 2023 Teza-de-An.com </p>
+					</div>
+				</div>  
+			</div>
+		</footer>
+
+		<script src="../js/script.js"></script>
+		<script src="https://kit.fontawesome.com/da9ff5ae16.js" crossorigin="anonymous"></script>
+
+	</body>
+</html>
