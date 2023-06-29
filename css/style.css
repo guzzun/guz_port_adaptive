@@ -409,7 +409,7 @@ html, body {
 }
 
 /* Projects */
-.section {
+.section, .section--mobile {
     padding: 55px 0 120px;
 }
 
@@ -669,7 +669,7 @@ html, body {
         text-underline-offset: 5px;
     }
 
-    .section, .section--mobile {
+    .section--mobile {
         padding: 55px 0 0;
     }
 
