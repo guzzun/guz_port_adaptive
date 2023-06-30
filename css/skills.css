@@ -91,6 +91,10 @@
 	.skills__name {
 		font-size: 16px;
 	}
+	
+	.skills__level {
+		font-size: 14px;
+	}
 
 }
 
@@ -105,11 +109,19 @@
 	}
 }
 
+@media screen and (min-width: 900px){
+	.skills__container {
+		grid-template-columns: repeat(2, 400px);
+		column-gap: 3rem;
+	} 
+}
+
+
 /* large devices */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
 
 	.skills__container {
-		grid-template-columns: repeat(2, 485px);
+		grid-template-columns: repeat(2, 500px);
 		column-gap: 3rem;
 	} 
 }
